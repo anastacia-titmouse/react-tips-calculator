@@ -13,6 +13,11 @@ export const Input = ({ value, onChange, label }: IProps) => {
     onChange(event.target.value);
   };
   return (
-    <InputStyled value={value} onChange={handleValue} placeholder={label} />
+    <InputStyled
+      value={value}
+      onChange={handleValue}
+      placeholder={label}
+      type="number"
+    />
   );
 };

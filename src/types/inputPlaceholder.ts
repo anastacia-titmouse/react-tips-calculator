@@ -1,1 +1,1 @@
-export type InputPlaceholder = "Enter bill" | "Enter persons";
+export type inputPlaceholder = "Enter bill" | "Enter persons";

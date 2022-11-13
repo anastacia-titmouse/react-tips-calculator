@@ -17,38 +17,36 @@ export const StyledForm = styled.form`
     gap: 15px;
     width: 80%;
   }
+`;
 
-  h1 {
-    text-align: center;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 40px;
+export const Title = styled.h2`
+  text-align: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
 
-    @media screen and (max-width: 743px) {
-      font-size: 24px;
-    }
-
-    @media screen and (max-width: 414px) {
-      font-size: 24px;
-    }
+  @media screen and (max-width: 743px) {
+    font-size: 24px;
   }
 
-  h5 {
-    text-align: center;
-    font-weight: 400;
-    font-size: 32px;
-    color: rgba(117, 108, 108, 0.57);
+  @media screen and (max-width: 414px) {
+    font-size: 24px;
+  }
+`;
+export const Subtitle = styled.h5`
+  text-align: center;
+  font-weight: 400;
+  font-size: 32px;
+  color: rgba(117, 108, 108, 0.57);
 
-    @media screen and (max-width: 743px) {
-      font-size: 24px;
-    }
-
-    @media screen and (max-width: 414px) {
-      font-size: 24px;
-    }
+  @media screen and (max-width: 743px) {
+    font-size: 24px;
   }
 
-  p {
-    font-weight: 600;
+  @media screen and (max-width: 414px) {
+    font-size: 24px;
   }
+`;
+export const Total = styled.p`
+  font-weight: 600;
 `;

@@ -16,7 +16,7 @@ export const CustomSelect = ({ value, onSelect }: IProps) => {
     { value: "20", label: "20%" },
   ];
 
-  const handleChange = (newValue: OnChangeValue<IOption, boolean>) => {
+  const handleSelect = (newValue: OnChangeValue<IOption, boolean>) => {
     onSelect((newValue as IOption).value);
   };
 
@@ -44,7 +44,7 @@ export const CustomSelect = ({ value, onSelect }: IProps) => {
       options={options}
       styles={colorStyles}
       value={getOptionValue(value)}
-      onChange={handleChange}
+      onChange={handleSelect}
     />
   );
 };
